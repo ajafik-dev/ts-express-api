@@ -1,0 +1,8 @@
+POST http://localhost:8080/auth/register
+content-type: application/json
+
+{
+    "email": "user@email.com",
+    "username": "user",
+    "password": "pass"
+}
